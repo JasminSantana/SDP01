@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaio Contacto</title>
+<link href="../css/contact.css" rel="stylesheet">
+</head>
+<body>
+<h1>Formulario Constacto</h1>
+	<form action="#">
+		<p id="instructions">
+			Favor de contestar los datos en<em>*</em>
+		</p>	
+		<fieldset>
+			<legend>Datos de Contacto</legend>
+			<label for="nombre">Nombre y Apellidos:<em>*</em></label>
+			<input id="name"/> <br/>
+			<label for="empresa">Empresa:</label>
+			<input id="empresa" /><br/>
+			<label for="telefono">Telefono:</label>
+			<input id="telefono"/><br/>
+			<label for="población">Población:</label>
+			<input id="población"/><br/>
+			<label for="pais">País:</label>
+			<select id="pais">
+				<option value="mexico">México</option>
+				<option value="guanajuato">Guanajuato</option>	
+			</select><br/>
+			<label for="mensajes">Mensajes:</label><br/>
+			<textarea id="mensajes"></textarea>
+		</fieldset>
+		<fieldset>
+			<label for="terminos">
+				<input id="terminos" type="checkbox">He leído y acepto la politica de privacidad
+			</label>
+		</fieldset>
+		<p><input type="submit" value="Enviar"></p>
+	</form>
+</body>
+</html>

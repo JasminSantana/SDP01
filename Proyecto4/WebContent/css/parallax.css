@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+#body{
+	background-image: url(../img/fond.jpg);
+}
+#header{
+	text-align: center;
+	border-bottom: 3px single gray;
+	background-color: #4000FF;
+	 
+}
+.headerBanner{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 40 px;
+	height: 41px;
+}
+
+.headerSmallText{
+	background-color: #ffffff;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	height: 12px;
+	line-height: 1.09;
+	margin: 0 0 0 8px;
+	padding: 0 0 0 8px;
+	float: right;
+}
+#map{
+	float: left;
+	width: 70%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height: 30em;
+}
+#left{
+
+	float:left;
+	width: 10%;
+	min-height: 30em;
+	
+}
+#center{
+	float: left;
+	width: 80%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height: 30em;
+	}
+#center-three-column{
+	float: left;
+	width: 70%;
+	padding-left: 1%;
+	padding-right: 1%;
+	min-height: 30em;
+}
+
+#rigth{
+	float: left;
+	width: 10%;
+	padding-left: 2%;
+	padding-right: 1%;
+	min-height: 30em;
+}
+
+#footer{
+	font-size: 10px;
+	height: 11px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+h4{text-align:center; color:#FFFF00;}
+
+	 .boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#B40404;
+       border-radius: 5px;
+        width:80px;
+        height:25px;
+       }
+

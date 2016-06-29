@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+
+
+	
+	h1{text-align:center;}
+	p{font-family:Baskerville Old Face; font-size:18px;text-align: justify;}
+	body{background-image:url(../img/fond.jpg);
+	 	}
+
+	 	
+	h1,h2.estilo1{text-align:center; color:#DF0101;}
+	li,ol,ul{ color:#F2F5A9;}
+	p.estilo2{color:#F2F5A9; text-align: justify;}
+	body.estilo3{ background-image: url(../img/font2.jpg);}
+	
+	body.estilo4{ background-image: url(../img/fontC.jpg);}
+	h3.estilo5{font-family:Rockwell;color:black}
+	h3{font-family:Rockwell;
+		color:#F2F5A9;}
+	a{color: red;}
+	table{border:2px solid #0000ff;
+		width: 95%;
+	}
+	img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	 width: 200px; height:200px;
+	
+	}
+	
+	
+	
+	
